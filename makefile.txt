@@ -1,0 +1,4 @@
+alex Lexer.x
+happy Parser.y
+ghc -o test test.hs CMips.hs Interm.hs
+./test
